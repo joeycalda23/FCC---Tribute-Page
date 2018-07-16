@@ -1,0 +1,40 @@
+:root {
+    font-family:'Open Sans', sans-serif;
+    font-size:12;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+}
+.wrapper-100 {
+    text-align: center;
+}
+.row {
+    width:85%;
+}
+
+.wrapper-75-25{
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap:1em;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.wrapper-50-50 {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap:1em;
+     margin:0 auto;
+}
+.wrapper-50-50 >div {
+    padding:2em;
+    text-align: justify;
+}
+
+.wrapper-50-50 > div >figure >img{
+    align-self: center;
+}
