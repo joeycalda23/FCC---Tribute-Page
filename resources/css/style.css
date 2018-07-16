@@ -38,3 +38,7 @@ img {
 .wrapper-50-50 > div >figure >img{
     align-self: center;
 }
+
+body {
+    background-color: grey;
+}
